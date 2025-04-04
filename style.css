@@ -1,22 +1,5 @@
-a:hover {
-    cursor: pointer; 
-    outline: none;     
-}
-
-img:hover {
-    cursor: pointer;
-    outline: none;
-}
-
 html {
     scroll-behavior: smooth;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 * {
@@ -27,12 +10,11 @@ html, body {
 }
 
 body {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
     font-family: "Kanit", sans-serif;
     background-image: url(img/background.png);
+    color: white;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -60,7 +42,6 @@ header nav ul {
 header nav ul li {
     margin-right: 20px;
 }
-
 header nav ul li:last-child {
     margin-right: 20px;
 }
@@ -151,7 +132,7 @@ p span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: flex-start;
 }
 
 #text_bild {
@@ -162,9 +143,10 @@ p span {
 }
 
 #bild1 {
-    height: 300px;
-    margin: 0; /* vorherige margins entfernen */
-    margin-left: 20px; /* schiebt das Bild ganz nach rechts im flex-container */
+    height: auto;
+    max-height: 300px;
+    margin: 0 0 0 10px;
+    border-radius: 15%;
 }
 
 #portfolio {
