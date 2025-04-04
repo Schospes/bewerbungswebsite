@@ -199,3 +199,7 @@ p span {
 #contact {
     text-align: center;
 }
+
+#kontakt_liste {
+    list-style: none;
+}
