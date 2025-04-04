@@ -142,7 +142,7 @@ p span {
     width: 100%;
 }
 
-#bild1 {
+#bild1, #bild2 {
     height: auto;
     max-height: 300px;
     margin: 0 0 0 10px;
