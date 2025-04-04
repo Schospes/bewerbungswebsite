@@ -1,0 +1,209 @@
+a:hover {
+    cursor: pointer; 
+    outline: none;     
+}
+
+img:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(to right, #000000, #16053dc9);
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 20px;
+}
+
+header nav {
+    display: flex; 
+    justify-content: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #0a09089f;
+    border-radius: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens:auto;
+    flex-direction: row;
+}
+
+h1, h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a0908;
+    color: white;
+    margin-top: auto;
+}
+
+#home {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#foto1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+p span {
+    display: block;
+    font-size: 40px;
+}
+
+#ues_oben {
+    font-size: 30px;
+}
+
+#impressum {
+    font-size: 12px;
+    color: rgb(196, 191, 191);
+}
+
+.ues2 {
+    text-align: center;
+}
+
+.inner_text {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.inner_pic {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#text_bild {
+    display: flex; 
+}
+
+#bild1 {
+    margin: 15px;
+    height: 300px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a09089f;
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 20px; 
+}
+
+#skills, #portfolio a, #portfolio p {
+    background-color: transparent; 
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} 
+
+#portfolio a {
+    text-decoration: none;
+    color: white; 
+    background-color: transparent; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+#portfolio a:hover {
+    background-color: #16053dc9;
+} 
+
+#fotobereich {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#imprint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a09089f;
+}
