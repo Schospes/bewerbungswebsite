@@ -160,9 +160,10 @@ p span {
 }
 
 #bild1 {
-    margin-right: 15px;
+    margin-right: auto;
     height: 300px;
     margin-left: 19px;
+    align-items: right;
 }
 
 #portfolio {
