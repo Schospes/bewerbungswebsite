@@ -144,6 +144,7 @@ p span {
 #about {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #about .about-content {
@@ -154,16 +155,16 @@ p span {
 }
 
 #text_bild {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
 }
 
 #bild1 {
-    margin-right: auto;
     height: 300px;
-    margin-left: 19px;
-    align-items: right;
+    margin: 0; /* vorherige margins entfernen */
+    margin-left: 20px; /* schiebt das Bild ganz nach rechts im flex-container */
 }
 
 #portfolio {
